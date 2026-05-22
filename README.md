@@ -13,7 +13,9 @@ This project documents my hands-on cybersecurity and Linux learning environment 
 * Process and port analysis
 * Basic firewall configuration using UFW
 * Simple HTTP server setup in Python
-
+* Git and GIthub workflow
+* Documentation and project organization 
+ 
 ## Tools Used
 
 * Ubuntu Linux
@@ -23,4 +25,6 @@ This project documents my hands-on cybersecurity and Linux learning environment 
 * tcpdump
 * Python3
 * UFW Firewall
+* Git
+* GitHub
 
