@@ -1,0 +1,5 @@
+Incident Analysis Started
+Analyst: VelvetSoft
+Environment: Ubuntu Linux VM
+Objective: Basic host and network investigation
+
