@@ -1,0 +1,9 @@
+ip a
+
+ip route
+
+ping -c 4 192.168.X.X
+
+nmap -sn 192.168.X.0/24
+
+nmap -sV 192.168.X.X
