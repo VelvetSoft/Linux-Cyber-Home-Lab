@@ -11,25 +11,44 @@ Learn how DNS resolves domain names into IP addresses.
 ```bash
 cat /etc/resolv.conf
 resolvectl status
+```
 
+### DNS lookups
 
-DNS lookups
+```bash
 nslookup tryhackme.com
 nslookup github.com
-Connectivity testing
+```
+
+### Connectivity testing
+
+```bash
 ping github.com -c 4
 ping 140.82.121.3 -c 4
-Route analysis
+```
+
+### Route analysis
+
+```bash
 traceroute github.com
-WHOIS lookup
+```
+
+### WHOIS lookup
+
+```bash
 whois 140.82.121.3
-Findings
-Local DNS resolver: 127.0.0.53
-Active DNS server: 1.1.1.1
-GitHub IP resolved successfully
-Route passed through Warsaw and Frankfurt
-GitHub hides some traceroute hops
-DNS translates domain names into IP addresses
-Lessons Learned
+```
+
+## Findings
+
+* Local DNS resolver: 127.0.0.53
+* Active DNS server: 1.1.1.1
+* GitHub IP resolved successfully
+* Route passed through Warsaw and Frankfurt
+* GitHub hides some traceroute hops
+* DNS translates domain names into IP addresses
+
+## Lessons Learned
 
 A computer must first resolve a domain name through DNS before it can connect to a website.
+
