@@ -50,6 +50,24 @@ Key findings:
 * Traced traffic path to GitHub
 * Verified IP ownership using WHOIS
 
+###Home Lab 003 – HTTP & Web Requests
+
+Topics:
+
+HTTP and HTTPS
+HTTP response headers
+GET and HEAD requests
+Website redirects
+Basic web traffic analysis
+
+Key findings:
+
+Analyzed HTTP response headers using curl
+Observed differences between HEAD and GET requests
+Retrieved HTML content from a web server
+Identified HTTP to HTTPS redirection using status code 301
+Learned how modern websites enforce encrypted connections
+
 ## Tools Used
 
 * Ubuntu Linux
