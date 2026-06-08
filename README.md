@@ -1,5 +1,14 @@
 # Linux Cyber Home Lab
 
+
+
+| Lab | Topic | Status |
+|------|--------|--------|
+| 001 | Network Discovery | ✅ |
+| 002 | DNS Investigation | ✅ |
+| 003 | HTTP & Web Requests | ✅ |
+| 004 | Wireshark Packet Capture | ✅ |
+
 ## Overview
 
 This repository documents my hands-on cybersecurity learning journey using Ubuntu Linux, VirtualBox, networking tools and practical home lab exercises.
@@ -16,6 +25,9 @@ The goal of this project is to build practical skills required for junior cybers
 * Basic security analysis
 * Git and GitHub workflow
 * Technical documentation
+* Packet analysis
+* Wireshark
+* TLS/HTTPS investigation
 
 ## Home Labs
 
@@ -50,23 +62,42 @@ Key findings:
 * Traced traffic path to GitHub
 * Verified IP ownership using WHOIS
 
-###Home Lab 003 – HTTP & Web Requests
+### Home Lab 003 – HTTP & Web Requests
 
 Topics:
 
-HTTP and HTTPS
-HTTP response headers
-GET and HEAD requests
-Website redirects
-Basic web traffic analysis
+- HTTP and HTTPS
+- HTTP response headers
+- GET and HEAD requests
+- Website redirects
+- Basic web traffic analysis
 
 Key findings:
 
-Analyzed HTTP response headers using curl
-Observed differences between HEAD and GET requests
-Retrieved HTML content from a web server
-Identified HTTP to HTTPS redirection using status code 301
-Learned how modern websites enforce encrypted connections
+- Analyzed HTTP response headers using curl
+- Observed differences between HEAD and GET requests
+- Retrieved HTML content from a web server
+- Identified HTTP to HTTPS redirection using status code 301
+- Learned how modern websites enforce encrypted connections
+
+### Home Lab 004 – Wireshark Packet Capture
+
+Topics:
+
+- Packet capture
+- DNS traffic analysis
+- HTTPS/TLS traffic analysis
+- Wireshark basics
+- Network traffic inspection
+
+Key findings:
+
+- Captured DNS queries and responses using Wireshark
+- Identified communication with DNS server 1.1.1.1
+- Observed DNS resolution process in network traffic
+- Captured encrypted HTTPS traffic
+- Observed TLSv1.3 communication with GitHub servers
+- Learned how DNS and HTTPS appear at packet level
 
 ## Tools Used
 
@@ -76,6 +107,8 @@ Learned how modern websites enforce encrypted connections
 * nslookup
 * traceroute
 * whois
+* curl
+* Wireshark
 * UFW
 * Git
 * GitHub
