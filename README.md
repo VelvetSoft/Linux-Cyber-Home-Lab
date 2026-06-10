@@ -8,6 +8,7 @@
 | 002 | DNS Investigation | ✅ |
 | 003 | HTTP & Web Requests | ✅ |
 | 004 | Wireshark Packet Capture | ✅ |
+| 005 | TCP Three-Way Handshake| ✅ |
 
 ## Overview
 
@@ -28,6 +29,8 @@ The goal of this project is to build practical skills required for junior cybers
 * Packet analysis
 * Wireshark
 * TLS/HTTPS investigation
+* TCP/IP fundamentals
+* Traffic analysis
 
 ## Home Labs
 
@@ -98,6 +101,25 @@ Key findings:
 - Captured encrypted HTTPS traffic
 - Observed TLSv1.3 communication with GitHub servers
 - Learned how DNS and HTTPS appear at packet level
+
+## Home Lab 005 – TCP Three-Way Handshake
+
+Topics:
+
+- TCP protocol
+- TCP Three-Way Handshake
+- SYN packets
+- SYN-ACK packets
+- ACK packets
+- TLS handshake introduction
+
+Key findings:
+
+- Captured a complete TCP Three-Way Handshake using Wireshark.
+- Observed SYN, SYN-ACK and ACK packets.
+- Identified how TCP connections are established before data transfer.
+- Observed TLS Client Hello and Server Hello messages.
+- Learned how HTTPS communication begins at the network level.
 
 ## Tools Used
 
