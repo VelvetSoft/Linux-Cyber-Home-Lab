@@ -9,6 +9,7 @@
 | 003 | HTTP & Web Requests | ✅ |
 | 004 | Wireshark Packet Capture | ✅ |
 | 005 | TCP Three-Way Handshake| ✅ |
+| 006 | Linux Log Analysis | ✅ |
 
 ## Overview
 
@@ -31,6 +32,10 @@ The goal of this project is to build practical skills required for junior cybers
 * TLS/HTTPS investigation
 * TCP/IP fundamentals
 * Traffic analysis
+* Linux log analysis
+* journalctl
+* grep filtering
+* Security event investigation
 
 ## Home Labs
 
@@ -120,6 +125,26 @@ Key findings:
 - Identified how TCP connections are established before data transfer.
 - Observed TLS Client Hello and Server Hello messages.
 - Learned how HTTPS communication begins at the network level.
+
+### Home Lab 006 – Linux Log Analysis
+
+Topics:
+
+- Linux system logs
+- journalctl
+- grep filtering
+- Failed event investigation
+- AppArmor security events
+- SSH log analysis
+
+Key findings:
+
+- Reviewed Linux system logs using journalctl
+- Investigated failed system events
+- Analyzed AppArmor security denials
+- Examined SSH-related log entries
+- Learned to distinguish between errors and security controls
+- Practiced filtering security-relevant events with grep
 
 ## Tools Used
 
