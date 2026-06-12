@@ -1,9 +1,0 @@
-Linux Basics Notes
-
-ip a - show IP address
-ls - list files
-cd - change directory
-pwd - show current directory
-chmod - change file permissions
-ps aux - show processes
-netstat - show network connections
