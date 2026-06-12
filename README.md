@@ -126,7 +126,7 @@ Key findings:
 - Observed TLS Client Hello and Server Hello messages.
 - Learned how HTTPS communication begins at the network level.
 
-### Home Lab 006 – Linux Log Analysis
+## Home Lab 006 – Linux Log Analysis
 
 Topics:
 
