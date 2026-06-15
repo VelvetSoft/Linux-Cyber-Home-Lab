@@ -10,6 +10,7 @@
 | 004 | Wireshark Packet Capture | ✅ |
 | 005 | TCP Three-Way Handshake| ✅ |
 | 006 | Linux Log Analysis | ✅ |
+| 007 | Linux Users, Groups & Permissions | ✅ |
 
 ## Overview
 
@@ -145,6 +146,30 @@ Key findings:
 - Examined SSH-related log entries
 - Learned to distinguish between errors and security controls
 - Practiced filtering security-relevant events with grep
+
+
+## Home Lab 007 – Linux Users, Groups & Permissions
+
+Topics:
+
+- Linux users
+- Linux groups
+- File permissions
+- chmod
+- Numeric permissions
+- Symbolic permissions
+- Access control
+
+Key findings:
+
+- Identified the current Linux user and associated groups.
+- Investigated file and directory permissions using ls -l.
+- Learned the difference between owner, group and others.
+- Interpreted Linux permission notation (rwx).
+- Modified permissions using chmod.
+- Applied common permission configurations such as 644, 700 and 755.
+- Practiced symbolic permission changes using chmod u+x.
+
 
 ## Tools Used
 
