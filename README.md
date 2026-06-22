@@ -11,6 +11,7 @@
 | 005 | TCP Three-Way Handshake| ✅ |
 | 006 | Linux Log Analysis | ✅ |
 | 007 | Linux Users, Groups & Permissions | ✅ |
+| 008 | Linux Shell Operators & Documentation | ✅ |
 
 ## Overview
 
@@ -37,7 +38,10 @@ The goal of this project is to build practical skills required for junior cybers
 * journalctl
 * grep filtering
 * Security event investigation
-
+* Linux shell operators
+* Command documentation
+* Output redirection
+* Background processes
 ## Home Labs
 
 ### Home Lab 001 – Network Discovery
@@ -169,6 +173,27 @@ Key findings:
 - Modified permissions using chmod.
 - Applied common permission configurations such as 644, 700 and 755.
 - Practiced symbolic permission changes using chmod u+x.
+
+## Home Lab 008 – Linux Shell Operators & Documentation
+
+Topics:
+
+- Linux manual pages
+- Command documentation
+- Shell operators
+- Output redirection
+- Background processes
+
+Key findings:
+
+- Explored Linux manual pages using man.
+- Used the --help option to understand command syntax.
+- Practiced command chaining using &&.
+- Redirected output using > and >>.
+- Executed commands in the background using &.
+- Checked background tasks using jobs.
+
+
 
 
 ## Tools Used
