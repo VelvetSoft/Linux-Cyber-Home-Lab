@@ -12,6 +12,8 @@
 | 006 | Linux Log Analysis | ✅ |
 | 007 | Linux Users, Groups & Permissions | ✅ |
 | 008 | Linux Shell Operators & Documentation | ✅ |
+| 009 | Linux Processes & System Monitoring| ✅ |
+
 
 ## Overview
 
@@ -42,6 +44,7 @@ The goal of this project is to build practical skills required for junior cybers
 * Command documentation
 * Output redirection
 * Background processes
+
 ## Home Labs
 
 ### Home Lab 001 – Network Discovery
@@ -192,6 +195,26 @@ Key findings:
 - Redirected output using > and >>.
 - Executed commands in the background using &.
 - Checked background tasks using jobs.
+
+## Home Lab 009 – Linux Processes & System Monitoring
+
+Topics:
+
+- Linux processes
+- Process IDs (PID)
+- Background jobs
+- Process termination
+- System monitoring
+
+Key findings:
+
+- Listed running processes using ps aux.
+- Filtered user processes using grep.
+- Created background jobs using the & operator.
+- Monitored background tasks using jobs.
+- Identified process IDs (PID).
+- Terminated processes using kill.
+- Monitored system resources using top.
 
 
 
