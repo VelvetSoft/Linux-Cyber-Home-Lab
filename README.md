@@ -13,6 +13,8 @@
 | 007 | Linux Users, Groups & Permissions | ✅ |
 | 008 | Linux Shell Operators & Documentation | ✅ |
 | 009 | Linux Processes & System Monitoring| ✅ |
+| 010 | Linux File Search & Text Analysis| ✅ |
+
 
 
 ## Overview
@@ -215,6 +217,25 @@ Key findings:
 - Identified process IDs (PID).
 - Terminated processes using kill.
 - Monitored system resources using top.
+
+## Home Lab 010 – Linux File Search & Text Analysis
+
+Topics:
+
+- File searching
+- Text filtering
+- Data counting
+- File content analysis
+- Text sorting
+
+Key findings:
+
+- Displayed file contents using cat.
+- Searched text patterns using grep.
+- Counted lines using wc.
+- Viewed file contents using head and tail.
+- Located files using find.
+- Sorted text data using sort.
 
 
 
