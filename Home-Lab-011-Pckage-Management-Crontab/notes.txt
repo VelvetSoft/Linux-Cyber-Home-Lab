@@ -1,0 +1,32 @@
+# Home Lab 011 - Linux Package Management & Crontab
+
+## Objective
+
+Learn how to manage Linux packages using apt and how to schedule automatic tasks using crontab.
+
+## Exercises
+
+### Exercise 1 - Package Management and Scheduled Tasks
+
+Findings:
+
+* Updated package repository information using sudo apt update.
+* Searched for packages using apt search.
+* Displayed package details using apt show.
+* Installed the htop package using apt install.
+* Verified that htop was installed and working.
+* Removed the htop package using apt remove.
+* Listed scheduled tasks using crontab -l.
+* Created a scheduled task using crontab -e.
+* Verified that cron automatically wrote output to cron.log.
+
+## Lessons Learned
+
+* apt is used to manage software packages on Ubuntu.
+* apt update refreshes the package list from repositories.
+* apt search helps find available software.
+* apt show displays package information.
+* apt install installs software from repositories.
+* apt remove removes installed software.
+* crontab allows Linux to run tasks automatically on a schedule.
+* Cron jobs are useful for automation, backups, monitoring, and scheduled reports.

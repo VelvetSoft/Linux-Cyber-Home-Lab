@@ -14,6 +14,7 @@
 | 008 | Linux Shell Operators & Documentation | ✅ |
 | 009 | Linux Processes & System Monitoring| ✅ |
 | 010 | Linux File Search & Text Analysis| ✅ |
+| 011 | Linux Package Management & Crontab | ✅ |
 
 
 
@@ -46,6 +47,12 @@ The goal of this project is to build practical skills required for junior cybers
 * Command documentation
 * Output redirection
 * Background processes
+* Linux package management
+* apt
+* Software installation
+* Crontab
+* Task scheduling
+* Linux automation
 
 ## Home Labs
 
@@ -237,6 +244,29 @@ Key findings:
 - Located files using find.
 - Sorted text data using sort.
 
+
+## Home Lab 011 – Linux Package Management & Crontab
+
+Topics:
+
+* Package management
+* Software repositories
+* apt
+* Installing and removing software
+* Crontab
+* Scheduled tasks
+* Linux automation
+
+Key findings:
+
+* Updated package repository information using sudo apt update.
+* Searched for packages using apt search.
+* Displayed package details using apt show.
+* Installed and tested the htop package.
+* Removed software using apt remove.
+* Listed existing cron jobs using crontab -l.
+* Created a scheduled cron job using crontab -e.
+* Verified automatic task execution through cron.log.
 
 
 
